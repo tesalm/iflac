@@ -1,0 +1,39 @@
+{
+  "name": "ryhma-hau-frontend",
+  "version": "0.0.1",
+  "description": "Tikasu-kurssin harkkatyö",
+  "repository": {
+    "type": "git",
+    "url": "https://course-gitlab.tut.fi/tiekasu2018/ryhma-hau"
+  },
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cd .. && rm -rf backend/build && mv frontend/build backend/",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-date-picker": "^7.2.0",
+    "react-dom": "^16.8.2",
+    "react-router": "^4.3.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:3001/"
+}

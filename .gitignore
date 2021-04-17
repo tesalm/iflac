@@ -1,0 +1,15 @@
+.DS_Store
+
+.vs
+.vscode
+
+.env
+
+# dependencies
+node_modules
+
+# production
+build
+dist
+
+npm-debug.log*
